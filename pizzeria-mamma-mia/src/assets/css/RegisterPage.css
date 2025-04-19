@@ -1,0 +1,24 @@
+.container{ 
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+
+    h2 {
+        padding: 1%;
+    }
+    
+    h4 {
+        padding: 1%;
+    }
+    
+    input {
+        margin-left: 1%;
+    }
+    
+    button {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+}
+

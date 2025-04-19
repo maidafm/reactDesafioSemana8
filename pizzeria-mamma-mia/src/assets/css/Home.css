@@ -1,0 +1,32 @@
+.Home {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-template-areas:
+    "header"
+    "main";
+}
+
+.Header {
+    grid-area: header;
+}
+
+.card-container {
+    grid-area: main;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);  
+    }
+}
+
+@media (max-width: 767px) {
+    .card-container {
+        grid-template-rows: 1fr;
+    }
+    
+}
